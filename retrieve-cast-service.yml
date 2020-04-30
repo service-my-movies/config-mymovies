@@ -1,6 +1,6 @@
 # Port Service
 server:
-  port: 8003
+  port: 8004
 
 # API URL
 resource:
@@ -12,16 +12,15 @@ resource:
     language: "&language=fr-FR"
 
 service:
-  url: "http://retrieve-image-service/image/"
-
+  url: "http://retrieve-credit-service/credit/"
 
 # DEBUG    
 debug: true
 
 # LOG
 #logging:
-#  path: /var/log/retrieve-backdrop-service/
-#  file: /var/log/retrieve-backdrop-service/retrieve-backdrop-service.log
+#  path: /var/log/retrieve-cast-service/
+#  file: /var/log/retrieve-cast-service/retrieve-cast-service.log
 
 # Eureka Client
 eureka:
