@@ -1,0 +1,5 @@
+# Config data exposed by config server
+
+# Port Service
+server:
+  port: 8007
