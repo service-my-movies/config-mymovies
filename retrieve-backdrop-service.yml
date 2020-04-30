@@ -12,7 +12,7 @@ resource:
     language: "&language=fr-FR"
 
 service:
-  url: ""
+  url: "http://retrieve-image-service/image/"
 
 
 # DEBUG    
