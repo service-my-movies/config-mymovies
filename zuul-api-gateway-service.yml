@@ -11,7 +11,7 @@ zuul:
   routes:
     discover-service:
       path: /discover-service/**
-      url: http://discover-service
+      serviceId: discover-service
     home-page-test-service:
       path: /home-page-test-service/**
       url: http://home-page-test-service
