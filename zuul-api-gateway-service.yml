@@ -14,67 +14,67 @@ zuul:
       serviceId: discover-service
     home-page-test-service:
       path: /home-page-test-service/**
-      url: http://home-page-test-service
+      serviceId: home-page-test-service
     retrieve-backdrop-service:
       path: /backdrop-service/**
-      url: http://retrieve-backdrop-service
+      serviceId: retrieve-backdrop-service
     retrieve-cast-service:
       path: /cast-service/**
-      url: http://retrieve-cast-service
+      serviceId: retrieve-cast-service
     retrieve-credit-service:
       path: /credit-service/**
-      url: http://retrieve-credit-service
+      serviceId: retrieve-credit-service
     retrieve-crew-service:
       path: /crew-service/**
-      url: http://retrieve-crew-service
+      serviceId: retrieve-crew-service
     retrieve-genre-service:
       path: /genre-service/**
-      url: http://retrieve-genre-service
+      serviceId: retrieve-genre-service
     retrieve-image-service:
       path: /image-service/**
-      url: http://retrieve-image-service
+      serviceId: retrieve-image-service
     retrieve-keyword-service:
       path: /keyword-service/**
-      url: http://retrieve-keyword-service
+      serviceId: retrieve-keyword-service
     retrieve-keywords-service:
       path: /keywords-service/**
-      url: http://retrieve-keywords-service
+      serviceId: retrieve-keywords-service
     retrieve-list-genres-available-service:
       path: /list-genres-available-service/**
-      url: http://retrieve-list-genres-available-service
+      serviceId: retrieve-list-genres-available-service
     retrieve-movie-service:
       path: /movie-service/**
-      url: http://retrieve-movie-service
+      serviceId: retrieve-movie-service
     retrieve-posters-service:
       path: /posters-service/**
-      url: http://retrieve-posters-service
+      serviceId: retrieve-posters-service
     retrieve-production-companies-service:
       path: /production-companies-service/**
-      url: http://retrieve-production-companies-service
+      serviceId: retrieve-production-companies-service
     retrieve-production-countries-service:
       path: /production-countries-service/**
-      url: http://retrieve-production-countries-service
+      serviceId: retrieve-production-countries-service
     retrieve-release-dates-service:
       path: /release-dates-service/**
-      url: http://retrieve-release-dates-service
+      serviceId: retrieve-release-dates-service
     retrieve-result-release-dates-service:
       path: /result-release-dates-service/**
-      url: http://retrieve-result-release-dates-service
+      serviceId: retrieve-result-release-dates-service
     retrieve-review-service:
       path: /retrieve-review-service/**
-      url: http://retrieve-review-service
+      serviceId: retrieve-review-service
     retrieve-reviews-service:
       path: /retrieve-reviews-service/**
-      url: http://retrieve-reviews-service
+      serviceId: retrieve-reviews-service
     retrieve-spoken-languages-service:
       path: /retrieve-spoken-languages-service/**
-      url: http://retrieve-spoken-languages-service
+      serviceId: retrieve-spoken-languages-service
     retrieve-video-service:
       path: /retrieve-video-service/**
-      url: http://retrieve-video-service
+      serviceId: retrieve-video-service
     retrieve-videos-service:
       path: /retrieve-videos-service/**
-      url: http://retrieve-videos-service
+      serviceId: retrieve-videos-service
     user-service:
       path: /user-service/**
-      url: http://user-service
+      serviceId: user-service
