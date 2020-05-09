@@ -9,6 +9,12 @@ eureka:
 zuul:
   prefix: /api
   routes:
+    discover-service:
+      path: /discover-service/**
+      url: http://discover-service
+    home-page-test-service:
+      path: /home-page-test-service/**
+      url: http://home-page-test-service
     retrieve-backdrop-service:
       path: /backdrop-service/**
       url: http://retrieve-backdrop-service
@@ -39,9 +45,36 @@ zuul:
     retrieve-movie-service:
       path: /movie-service/**
       url: http://retrieve-movie-service
-    discover-service:
-      path: /discover-service/**
-      url: http://discover-service
-    home-page-test-service:
-      path: /home-page-test-service/**
-      url: http://home-page-test-service
+    retrieve-posters-service:
+      path: /posters-service/**
+      url: http://retrieve-posters-service
+    retrieve-production-companies-service:
+      path: /production-companies-service/**
+      url: http://retrieve-production-companies-service
+    retrieve-production-countries-service:
+      path: /production-countries-service/**
+      url: http://retrieve-production-countries-service
+    retrieve-release-dates-service:
+      path: /release-dates-service/**
+      url: http://retrieve-release-dates-service
+    retrieve-result-release-dates-service:
+      path: /result-release-dates-service/**
+      url: http://retrieve-result-release-dates-service
+    retrieve-review-service:
+      path: /retrieve-review-service/**
+      url: http://retrieve-review-service
+    retrieve-reviews-service:
+      path: /retrieve-reviews-service/**
+      url: http://retrieve-reviews-service
+    retrieve-spoken-languages-service:
+      path: /retrieve-spoken-languages-service/**
+      url: http://retrieve-spoken-languages-service
+    retrieve-video-service:
+      path: /retrieve-video-service/**
+      url: http://retrieve-video-service
+    retrieve-videos-service:
+      path: /retrieve-videos-service/**
+      url: http://retrieve-videos-service
+    user-service:
+      path: /user-service/**
+      url: http://user-service
